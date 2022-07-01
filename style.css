@@ -1,0 +1,190 @@
+*,
+*::before,
+*::after {
+    font-family: 'Trispace', sans-serif;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: scroll;
+    background-color: rgb(0, 0, 0);
+}
+
+ul {
+    background: linear-gradient(
+        rgba(82, 49, 49, 0.068),
+        rgba(12, 11, 11, 0.3) 10%,
+        rgba(199, 188, 188, 0.034)
+    );
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+ul a {
+    margin-left: 150px;
+    margin-top: auto;
+}
+
+a img {
+    transition: transform 200ms ease;
+}
+
+a img:hover,
+a img:focus {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+footer .footerp {
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(0, 255, 55, 0.993);
+}
+
+footer .footerp:hover,
+footer .footerp:focus {
+    color:rgba(0, 255, 55, 0.993);
+}
+
+header {
+    background-image:url(./images/blocks.png);
+    color: rgba(0, 255, 55, 0.993);
+    width: auto;
+    font-size: 30px;
+    padding-bottom: 500px;
+    height: 500px;
+}
+
+.name {
+    padding-top: 15px;
+}
+
+header .headerp1 {
+    padding-top: 60px;
+    font-size: 26px;
+    margin-left: 5px;
+    margin-top: 0;
+    
+}
+
+header .headerp2 {
+    padding-top: 380px;
+}
+
+.card1 {
+    color: white;
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2022/02/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+    background-size: cover;
+    padding: 12rem 0 0;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 40px;
+    max-width: 35ch;
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
+    transition: transform 500ms ease, box-shadow 400ms;
+}
+
+.card2 {
+    color: white;
+    background-image: url(./images/osoandme.jpg);
+    background-size: cover;
+    padding: 11rem 0 0;
+    margin-top: 20px;
+    max-width: 35ch;
+    border-radius: 20px;
+    float: left;
+    margin-right: 40px;
+    margin-left: 0;
+    overflow: hidden;
+    transition: transform 500ms ease, box-shadow 400ms;
+}
+
+.card3 {
+    color: white;
+    background-image: url(./images/mati.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    margin-top: 20px;
+    max-width: 35ch;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 500ms ease, box-shadow 400ms;
+
+}
+
+.card1:hover,
+.card1:focus,
+.card2:hover,
+.card2:focus,
+.card3:hover,
+.card3:focus {
+    box-shadow: 10px 5px 25px rgba(0, 255, 55, 0.993);
+    transform: scale(1.01);
+}
+
+.card-content1, .card-content2, .card-content3 {
+    --padding: 3rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 5%,
+        hsl(0 0% 0% / 1)
+    );
+}
+
+.card-title1, .card-title2, .card-title3 {
+    position: relative;
+    max-width: max-content;
+    margin-bottom: 10px;
+}
+
+.card-title1::after,
+.card-title2::after,
+.card-title3::after {
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    background: rgba(37, 224, 12, 0.548);
+
+}
+
+.button1,
+.button2,
+.button3 {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background-color: rgba(37, 224, 12, 0.548);
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 60;
+}
+
+.button1:hover,
+.button1:focus,
+.button2:hover,
+.button2:focus,
+.button3:hover,
+.button3:focus {
+    background-color: black;
+    color:rgba(0, 255, 55, 0.993)
+}
